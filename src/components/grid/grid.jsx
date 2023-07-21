@@ -13,7 +13,7 @@ function Grid({ numberOfCards }) {
 
     const play=useCallback(function playCallback(index){
         console.log('move clicked ', index);
-        if(turn==true){
+        if(turn===true){
           board[index]='0';
         } else{
           board[index]='X';
