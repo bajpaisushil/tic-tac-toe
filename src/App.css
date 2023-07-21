@@ -1,0 +1,12 @@
+:root{
+  --yellow: #ffc107;
+  --resetGreen: #28a7;
+}
+body{
+  background: black;
+}
+.App{
+  width: fit-content;
+  margin: auto;
+  text-align: center;
+}
